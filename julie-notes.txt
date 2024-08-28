@@ -1,0 +1,21 @@
+*last checked for bugs 8.28.24
+
+* For this project, following files need to be edited:
+    ~ template.html 
+        - (link/script updates)
+    ~ src/styles/index.css 
+        - (or you can use the inline styling in line 11 of the template.html instead)
+    ~ (possibly src/index.js - if you change your name of route of the Home component)
+    ~ src/js/component/home.jsx 
+        - to import and use the components in here
+    ~ Navbar.jsx
+    ~ Jumbotron.jsx
+        - build from scratch or find a version online you like
+    ~ Card.jsx
+        - using rows and columns for cards
+    ~ Footer.jsx
+
+Keep in mind how you have a correct footer: (for reference, go to: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
+    - have the main div inside the body [in this case: #app] or the [html] or [body] with the position of relative and min-height at 100vh
+    - then give whichever div that's holding the navbar, routes, and the footer a padding-bottom or 2.5rem
+    - then give the footer a height of 2.5rem, width of 100%, position of absolute, with a bottom of 0.
